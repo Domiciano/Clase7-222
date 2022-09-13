@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 
-class BlankFragment : Fragment() {
+class FragmentA : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,6 +21,6 @@ class BlankFragment : Fragment() {
     }
     companion object {
         @JvmStatic
-        fun newInstance() = BlankFragment()
+        fun newInstance() = FragmentA()
     }
 }
