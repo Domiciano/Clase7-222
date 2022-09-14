@@ -21,6 +21,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        //Vincular los dos fragments
+        fragmentA.listener = fragmentB
+
+
         showFragment(fragmentA)
 
         binding.actionFragmentA.setOnClickListener {
